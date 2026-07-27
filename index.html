@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> House Info </title>
+		<style>
+			 body {
+				background-colour: {{ house_colour}} ;
+				colour: white;
+			}
+		
+		</style>
+	</head>
+	<body>
+		<h1> welcome to {{ house}} </h1>
+		<img src = "C:\Users\jinzh\OneDrive\Desktop\flask basics 2\static\{{house}}.jpg" alt = "House" width = "250x">
+		<img src = "C:\Users\jinzh\OneDrive\Desktop\flask basics 2\static\{{house}} mascot.jpg" alt = "House mascot" width = "250x">
+		<h2> House points: {{ house_pt}} </h2>
+		<h2> Visited houses: {{ visited_houses }}</h2>
+	</body>
+</html>
